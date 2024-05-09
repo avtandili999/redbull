@@ -1,0 +1,350 @@
+@font-face {
+    font-family: inter;
+    src: url("fonts/Inter-Regular.ttf");
+}
+@font-face {
+    font-family: inter-semibold;
+    src: url("fonts/Inter-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+}
+
+.top-part {
+    height: 820px;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("pics/redbull-top-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#redbull-logo1 {
+    margin-left: 42px;
+    margin-top: 33px;
+}
+.top-nav {
+    display: flex;
+}
+.nav {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 37px;
+}
+#nav1 {
+    width: 104.5px;
+    height: 47px;
+    background-color: #00000069;
+    border: 1px solid #FFFFFF66;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+#nav2 {
+    width: 104.5px;
+    height: 47px;
+    background-color: #00000069;
+    border: 1px solid #FFFFFF66;
+    border-right: none;
+    border-left: none;
+}
+#nav3 {
+    width: 110px;
+    height: 47px;
+    background-color: #00000069;
+    border: 1px solid #FFFFFF66;
+    border-right: none;
+    border-left: none;
+}
+#nav4 {
+    width: 120px;
+    height: 47px;
+    background-color: #00000069;
+    border: 1px solid #FFFFFF66;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+}
+.nav-text {
+    text-decoration: none;
+    font-family: inter-semibold;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+#can {
+    width: 188px;
+    height: 293px;
+    margin-top: 67px;
+    margin-left: 234px;
+}
+#logo1 {
+    width: 90px;
+    height: 65px;
+    position: absolute;
+    margin: auto;
+}
+#yt1 {
+    width: 90px;
+    height: 65px;
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 700px;
+}
+.bottom-texts {
+    display: flex;
+    gap: 10px;
+    margin-top: 45px;
+}
+#box1 {
+
+}
+#bt-text1 {
+    font-family: inter-semibold;
+    font-size: 13px;
+}
+#bt-hr1 {
+    margin-bottom: 4px;
+    width: 90.76px;
+    height: 4px;
+    border: none;
+    background-color: #B91313;
+}
+#bt-hr2 {
+    margin-bottom: 4px;
+    width: 31.99px;
+    height: 4px;
+    border: none;
+    background-color: #868383;
+}
+#bar {
+    display: inline-flex;
+}
+.box2 {
+    margin-top: 11px;
+}
+.bt-hr3 {
+    margin-bottom: 4px;
+    width: 122.75px;
+    height: 4px;
+    border: none;
+    background-color: #424242;
+}
+.bt-text2 {
+    font-family: inter;
+    font-size: 13px;
+    color: #424242;
+}
+.bottom-info {
+    margin-left: -1170px;
+    margin-top: 435px;
+}
+#head-small {
+    font-family: inter;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+#head-big {
+    font-family: inter-semibold;
+    font-size: 32px;
+}
+#watch-bttn {
+    cursor: pointer;
+    width: 218px;
+    height: 46px;
+    border: none;
+    border-radius: 5px;
+    background-color: #DB0A40;
+    color: white;
+    font-family: inter-semibold;
+    font-size: 22px;
+    margin-top: 28px;
+}
+
+.mid-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#main-header {
+    text-align: center;
+    font-family: inter-semibold;
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 19px;
+    margin-top: 27px;
+}
+
+.cards {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+}
+.card {
+    width: 419.89px;
+    height: 667.52px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 0px #C9C9C9;
+}
+.low-rectangle {
+    width: 419.89px;
+    height: 232.83px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    background: #0000004A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 434.69px;
+}
+.card-header {
+    font-size: 32px;
+    font-family: inter-semibold;
+    text-align: center;
+    color: white;
+}
+#header-up {
+    padding-top: 25px;
+}
+.card-text {
+    font-size: 13px;
+    font-family: inter;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-left: 27.16px;
+    margin-top: 15px;
+}
+#card-texteup {
+    margin-top: 0px;
+}
+.card-lowtext {
+    color: white;
+    font-family: inter;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27.16px;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+#style {
+    font-weight: 700;
+}
+#card1 {
+    background-image: url("pics/cardpic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#card2 {
+    background-image: url("pics/cardpic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#card3 {
+    background-image: url("pics/cardpic3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#card4 {
+    background-image: url("pics/cardpic4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#card5 {
+    background-image: url("pics/cardpic5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#card6 {
+    background-image: url("pics/cardpic6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#runner {
+    width: 456.96px;
+    height: 424.58px;
+    margin-left: 40px;
+    margin-top: 5px;
+    position: absolute;
+}
+
+#bttn-more {
+    margin: auto;
+    margin-bottom: 56px;
+}
+#more {
+    background-color: #212360;
+    width: 251.17px;
+    height: 53px;
+    border: none;
+    border-radius: 5px;
+    font-family: inter-semibold;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.footer {
+    width: 100%;
+    height: 471px;
+    background-color: #00162B;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.footer-top {
+    display: flex;
+    box-sizing: border-box;
+    gap: 883px;
+    width: 1440px;
+    margin: 32px 20px 0px 50px;
+}
+#redbull-logo2 {
+    width: 238px;
+    height: 48px;
+}
+#redbull-c {
+    color: #A6A6A6;
+    font-family: inter;
+    font-size: 14px;
+}
+
+.footer-mid {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 33px;
+    width: 1440px;
+    margin-left: 73px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 159px;
+    gap: 20px;
+}
+.column1 {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: inter;
+}
+
+.footer-bottom {
+    margin-left: 75px;
+}
+.footer-logos {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
